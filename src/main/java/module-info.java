@@ -7,4 +7,6 @@ module com.crosbic.kursach {
 
     opens com.crosbic.kursach to javafx.fxml;
     exports com.crosbic.kursach;
+    exports com.crosbic.kursach.model;
+    exports com.crosbic.kursach.view;
 }

@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38e391c0-8373-4af1-988c-25d99dc3404d" name="Changes" comment="" />
+    <list default="true" id="38e391c0-8373-4af1-988c-25d99dc3404d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crosbic/kursach/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crosbic/kursach/TaxiParkApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crosbic/kursach/TaxiParkApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crosbic/kursach/controller/TaxiParkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crosbic/kursach/controller/TaxiParkController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crosbic/kursach/model/Taxi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crosbic/kursach/model/Taxi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crosbic/kursach/model/TaxiParkModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crosbic/kursach/model/TaxiParkModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crosbic/kursach/view/TaxiView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crosbic/kursach/view/TaxiView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,9 +27,15 @@
       </list>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2YD3UjgFKcmHCwP7hh7fY0Jt5l5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,17 +45,29 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.TaxiParkApp.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Crosbic/Documents/Work/kursach",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-19.0.2-corretto-19.0.2-3183f394aec4-f0552fc0" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,6 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1700046343131</updated>
       <workItem from="1700046344191" duration="1279000" />
+      <workItem from="1702406380291" duration="2350000" />
     </task>
     <servers />
   </component>

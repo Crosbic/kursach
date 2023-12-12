@@ -1,13 +1,15 @@
 package com.crosbic.kursach.model;
 
-import java.util.ArrayList;
-import java.util.List;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 
 public class TaxiParkModel {
-  private final List<Taxi> taxis;
+  private final ObservableList<Taxi> taxis;
+  private final ObservableList<Order> orders;
 
   public TaxiParkModel() {
-    taxis = new ArrayList<>();
+    taxis = FXCollections.observableArrayList();
+    orders = FXCollections.observableArrayList();
   }
 
   public void addTaxi(Taxi taxi) {
@@ -18,7 +20,15 @@ public class TaxiParkModel {
     taxis.remove(taxi);
   }
 
-  public List<Taxi> getTaxis() {
+  public ObservableList<Taxi> getTaxis() {
     return taxis;
+  }
+
+  public void addOrder(Order order) {
+    orders.add(order);
+  }
+
+  public ObservableList<Order> getOrders() {
+    return orders;
   }
 }
